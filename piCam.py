@@ -25,8 +25,7 @@ def initialisation():
 
     #MQTT Setup
     #client.connect(config['mqtt']['mqttBroker']) 
-    client.username_pw_set(username='dad',password='lenovo63')
-    client.connect(config['mqtt']['mqttBroker']) 
+    client.username_pw_set(username='xxx',password='xxxx')
     #client.connect("mqtt.stanners.co.nz") 
  
     client.subscribe(config['mqtt']['mqttTopic'])
